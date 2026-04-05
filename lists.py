@@ -31,12 +31,32 @@ fruits = ["apple", "mango", "banana", "grape", "orange"]
 # fruits.insert(1, "mango")
 # print(fruits)
 
-a = [1, 2, 3, 4]
-b = a
-print(a)
-print(b)
-c = a.copy()
-a.append(5)
-print(a)
-print(b)
-print(c)
+# a = [1, 2, 3, 4]
+# b = a
+# print(a)
+# print(b)
+# c = a.copy()
+# a.append(5)
+# print(a)
+# print(b)
+# print(c)
+
+nums = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+print(len(nums))
+print(sum(nums))
+print(max(nums))
+print(min(nums))
+n = int(input("Enter a number for search: "))
+print(nums.count(n))
+print(nums.index(n))
+print(nums)
+
+nums.sort()
+print(nums)
+nums.sort(reverse=True)
+print(nums)
+
+nums.reverse()
+print(nums)# in-place ulta
+nums.clear()                   # sab kuch hatao
+print(5 in nums)

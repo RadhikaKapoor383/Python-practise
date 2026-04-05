@@ -92,3 +92,4 @@ print(upper)
 marks = [85, 45, 92, 38, 70, 55]
 passing = [m for m in marks if m >= 60]
 print(passing)
+print(sorted(fruits, key=len))

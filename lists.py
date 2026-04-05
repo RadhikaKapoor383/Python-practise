@@ -72,3 +72,23 @@ i = 0
 while i <len(marks):
     print(f"Course {i+1}: {marks[i]}")
     i+=1
+
+# list Comprehension
+# Formula: [expression  for item in iterable  if condition]
+
+square = []
+for x in range(1, 6):
+    square.append(x**2)
+square = [x**2 for x in range(1, 6)]
+print(square)
+
+even = [x for x in range(1, 3) if x % 2 ==0]
+print(even)
+
+names = ["ali", "akram", "irshad"]
+upper = [n.upper() for n in names]
+print(upper)
+
+marks = [85, 45, 92, 38, 70, 55]
+passing = [m for m in marks if m >= 60]
+print(passing)

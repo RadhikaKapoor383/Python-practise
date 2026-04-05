@@ -19,14 +19,24 @@ empty = []
 # print(num[::1])
 
 fruits = ["apple", "mango", "banana", "grape", "orange"]
-fruits[1] = "kiwi"
-print(fruits)
+# fruits[1] = "kiwi"
+# print(fruits)
 
-fruits.append("pineapple")
-print(fruits)
-fruits.insert(2, "papaya")
-print(fruits)
-fruits.remove("kiwi")
-print(fruits)
-fruits.insert(1, "mango")
-print(fruits)
+# fruits.append("pineapple")
+# print(fruits)
+# fruits.insert(2, "papaya")
+# print(fruits)
+# fruits.remove("kiwi")
+# print(fruits)
+# fruits.insert(1, "mango")
+# print(fruits)
+
+a = [1, 2, 3, 4]
+b = a
+print(a)
+print(b)
+c = a.copy()
+a.append(5)
+print(a)
+print(b)
+print(c)

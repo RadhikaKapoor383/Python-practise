@@ -18,3 +18,20 @@ print(student)
 # popped = student.pop("age")    # hatao aur value return karo
 # print(student)
 print(len(student))
+
+d = {"a": 1, "b": 2, "c": 3}
+for key in d:
+    print(key, d[key])
+
+for key, val in d.items():    # yeh zyada achha tarika
+    print(f"{key} → {val}")
+print(d.items()) 
+
+class_data = {
+    "s001": {"name": "Ali",   "marks": [85, 90, 78], "dept": "CS"},
+    "s002": {"name": "Sana",  "marks": [92, 88, 95], "dept": "CS"},
+    "s003": {"name": "Usman", "marks": [70, 65, 72], "dept": "EE"},
+}
+
+print(class_data["s001"]["name"])
+print(class_data["s001"]["marks"][0])

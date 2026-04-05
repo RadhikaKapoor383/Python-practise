@@ -47,7 +47,7 @@ for i, fruit in enumerate(fruits):
     print(f"{i}: {fruit}")
     
 # zip when we want to loop two lists at the same time
-names  = ["Ali", "Sana", "Usman"]
-marks  = [85,    92,     78    ]
+names  = ("Ali", "Sana", "Usman")
+marks  = (85,    92,     78    )
 for name, mark in zip(names, marks):
     print(f"{name}: {mark}")

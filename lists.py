@@ -2,64 +2,64 @@ fruits = ["apple", "mango", "banana", "grape", "orange"]
 num = [10, 20, 30, 40, 50, 60, 70, 80]
 mixed = [1, "ali", True, 3.14]
 empty = []
-# print(fruits)
-# print(fruits[0])
-# print(fruits[1])
-# print(fruits[-1])
-# print(fruits[-2])
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(fruits[-1])
+print(fruits[-2])
 
-# print(len(fruits))
+print(len(fruits))
 
-# print(num[1:4])
-# print(num[:3])
-# print(num[3:])
-# print(num[1::4])
-# print(num[::2])
-# print(num[::-1])
-# print(num[::1])
+print(num[1:4])
+print(num[:3])
+print(num[3:])
+print(num[1::4])
+print(num[::2])
+print(num[::-1])
+print(num[::1])
 
 fruits = ["apple", "mango", "banana", "grape", "orange"]
-# fruits[1] = "kiwi"
-# print(fruits)
+fruits[1] = "kiwi"
+print(fruits)
 
-# fruits.append("pineapple")
-# print(fruits)
-# fruits.insert(2, "papaya")
-# print(fruits)
-# fruits.remove("kiwi")
-# print(fruits)
-# fruits.insert(1, "mango")
-# print(fruits)
+fruits.append("pineapple")
+print(fruits)
+fruits.insert(2, "papaya")
+print(fruits)
+fruits.remove("kiwi")
+print(fruits)
+fruits.insert(1, "mango")
+print(fruits)
 
-# a = [1, 2, 3, 4]
-# b = a
-# print(a)
-# print(b)
-# c = a.copy()
-# a.append(5)
-# print(a)
-# print(b)
-# print(c)
+a = [1, 2, 3, 4]
+b = a
+print(a)
+print(b)
+c = a.copy()
+a.append(5)
+print(a)
+print(b)
+print(c)
 
 nums = [3, 1, 4, 1, 5, 9, 2, 6, 5]
-# print(len(nums))
-# print(sum(nums))
-# print(max(nums))
-# print(min(nums))
-# n = int(input("Enter a number for search: "))
-# print(nums.count(n))
-# print(nums.index(n))
-# print(nums)
+print(len(nums))
+print(sum(nums))
+print(max(nums))
+print(min(nums))
+n = int(input("Enter a number for search: "))
+print(nums.count(n))
+print(nums.index(n))
+print(nums)
 
-# nums.sort()
-# print(nums)
-# nums.sort(reverse=True)
-# print(nums)
+nums.sort()
+print(nums)
+nums.sort(reverse=True)
+print(nums)
 
-# nums.reverse()
-# print(nums)# in-place ulta
-# nums.clear()                   # sab kuch hatao
-# print(5 in nums)
+nums.reverse()
+print(nums)# in-place ulta
+nums.clear()                   # sab kuch hatao
+print(5 in nums)
 
 # loops
 marks = [85, 99, 98, 78, 90, 65]

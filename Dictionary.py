@@ -17,3 +17,4 @@ print(student)
 # del student["city"]            # key hatao
 # popped = student.pop("age")    # hatao aur value return karo
 # print(student)
+print(len(student))

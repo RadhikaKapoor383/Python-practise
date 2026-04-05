@@ -42,21 +42,33 @@ fruits = ["apple", "mango", "banana", "grape", "orange"]
 # print(c)
 
 nums = [3, 1, 4, 1, 5, 9, 2, 6, 5]
-print(len(nums))
-print(sum(nums))
-print(max(nums))
-print(min(nums))
-n = int(input("Enter a number for search: "))
-print(nums.count(n))
-print(nums.index(n))
-print(nums)
+# print(len(nums))
+# print(sum(nums))
+# print(max(nums))
+# print(min(nums))
+# n = int(input("Enter a number for search: "))
+# print(nums.count(n))
+# print(nums.index(n))
+# print(nums)
 
-nums.sort()
-print(nums)
-nums.sort(reverse=True)
-print(nums)
+# nums.sort()
+# print(nums)
+# nums.sort(reverse=True)
+# print(nums)
 
-nums.reverse()
-print(nums)# in-place ulta
-nums.clear()                   # sab kuch hatao
-print(5 in nums)
+# nums.reverse()
+# print(nums)# in-place ulta
+# nums.clear()                   # sab kuch hatao
+# print(5 in nums)
+
+# loops
+marks = [85, 99, 98, 78, 90, 65]
+for m in marks:
+    print(m)
+
+for i, m in enumerate(marks):
+    print(f"Student {i+1}: {m}")
+i = 0
+while i <len(marks):
+    print(f"Course {i+1}: {marks[i]}")
+    i+=1

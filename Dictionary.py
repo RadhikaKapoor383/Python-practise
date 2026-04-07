@@ -34,4 +34,5 @@ class_data = {
 }
 
 print(class_data["s001"]["name"])
+print(class_data["s001"]["dept"])
 print(class_data["s001"]["marks"][0])
